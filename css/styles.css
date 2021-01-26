@@ -1,0 +1,42 @@
+:root{
+    --primary: #6D58F7;
+    --secondary: #fff;
+    --text: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", "Open Sans";
+}
+.page {
+    position: relative;
+    overflow: hidden; 
+    min-height: 100vh;
+    /* opacity: 0; */
+    background-color: var(--primary);
+}
+.header__nav{
+    height: 96px;
+    position: relative;
+    z-index: 1080;
+}
+.header__nav-info{
+    display: none;
+    background: #ffffff;
+}
+.header__nav-info-container{
+    padding-left: 0;
+    padding-right: 0; 
+}
+
+
+@media (min-width: 768px){
+    body {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+}
+
