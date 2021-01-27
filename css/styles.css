@@ -1,5 +1,10 @@
 .header{
-    padding: 0 60px 0 60px;
+    padding: 0 60px;
+} 
+
+.header__nav-info{
+    transition: none;
+    border-bottom: 1px solid transparent;
 }
 .header__nav-info-container{
     padding-left: 0;
@@ -44,15 +49,18 @@
 .span-icon{
     padding-right: 10px;
 }
+/* .header__slide{
+    padding-top: 150px;
+} */
 .header__slide-content-image{
-    position: absolute;
+    position: relative;
     top: 0;
-    left: -1px;
-    right: -1px;
+    left: -1px; 
+    right: -1px; 
     bottom: 0;
     z-index: 0;
 }
 .header__slide-text{
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
