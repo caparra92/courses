@@ -120,29 +120,6 @@ input, button, select, textarea {
     color: #f5543f;
     transition: .3s;
 }
-
-.offer__list-button-icon{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-    padding: 20px;
-    min-width: 80px;
-    width: 100%;
-}
-
-.offer__list-button-lg{
-    padding: 17px 30px;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-.offer__list-button-primary{
-    color: var(--secondary);
-    background-color: var(--primary);
-    border-color: var(--primary);
-}
-
 .offer__list-button{
     position: relative;
     overflow: hidden;
@@ -165,9 +142,3 @@ input, button, select, textarea {
     transition: 250ms all ease-in-out;
 }
 
-@media (min-width: 768px){
-    body {
-        font-size: 16px;
-        line-height: 1.75;
-    }
-}
