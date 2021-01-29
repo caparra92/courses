@@ -52,6 +52,7 @@
 /* .header__slide{
     padding-top: 150px;
 } */
+
 .header__slide-content-image{
     position: relative;
     top: 0;
@@ -63,4 +64,9 @@
 .header__slide-text{
     position: absolute;
     z-index: 1;
+    top: 50%;
+    left: 10%;
+}
+.img-01{
+    width: 100%;
 }
