@@ -11,6 +11,9 @@
 body{
     font-family: "Montserrat", "Open Sans";
 }
+header{
+    padding: 0 60px;
+}
 
 input, button, select, textarea {
     outline: none;
@@ -30,12 +33,69 @@ input, button, select, textarea {
 }
 .header__nav-info{
     display: none;
-    background: #ffffff;
+    border-bottom: 1px solid transparent;
 }
 .header__nav-info-container{
     padding-left: 0;
     padding-right: 0; 
 }
+.header__nav-info-container-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 95px;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav__fir-tel-list{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    font-size: 18px;
+}
+.nav__fir-tel-list > li{
+    display: flex;
+    margin-left: 30px;
+}
+.nav__fir-tel-list a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 21px;
+}
+.nav__fir-tel-list .icon{
+    position: relative;
+    top: 2px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.padd{
+    padding-top: 20px;
+}
+.span-icon{
+    padding-right: 10px;
+}
+.header__slide-content-image{
+    position: relative;
+    top: 0;
+    left: -1px; 
+    right: -1px; 
+    bottom: 0;
+    z-index: 0;
+}
+.header__slide-text{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10%;
+}
+.img-01{
+    width: 100%;
+}
+
 
 /* Section 2 */
 .offer{
@@ -141,4 +201,3 @@ input, button, select, textarea {
     user-select: none;
     transition: 250ms all ease-in-out;
 }
-
